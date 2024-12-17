@@ -1,0 +1,623 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+
+/* -------ჰედერში არსებული ელემენტები არის უკიდურეს კუთხესთან განლაგდებული. რესპონსივი ილეწება იმ კოდებით რაც ვისწავლეთ. 
+დამატებოითი კოდების გამოყენებაზე შეზღუდული ვარ, შეცდომაში ითვლება ამიტომ 80% მდე კარგადაა განლაგებული 90%-ის  ზემოთ ილეწება. -----*/
+
+
+/* ---------------------------------------------------header----------------------------------------------- */
+
+#headerContainer {
+    max-width: 1920px;
+    width: 100%;
+    height: 72px;
+    background: #FBF9FF;
+    text-align: center;
+    padding: 12px 32px;
+    margin: auto;
+}
+
+#logodiv {
+    padding: 13.489px;
+    max-width: 147px;
+    width: 100%;
+    margin-right: 670px;
+}
+
+#headerNavigation {
+    max-width: 236px;
+    width: 100%;
+    margin: auto;
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#Pricing,
+#FAQ,
+#Rewviews {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+#FAQ {
+    margin: 13px 12px;
+}
+
+
+#logodiv,
+#headerNavigation,
+#contactUsDiv {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contactUsDiv {
+    margin-left: 670px;
+}
+
+#ContactusButton {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+}
+
+
+/* main first section======================================================================= */
+
+#MainContainer {
+    max-width: 1450px;
+    width: 100%;
+    padding: 96px;
+    background: #F1E8FF;
+    margin: 131px auto 203px;
+}
+
+#firstSectionContainer {
+    padding: 0px 32px;
+}
+
+#title {
+    color: #181D27;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Inter;
+}
+
+#titleDescription {
+    color: #535862;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 768px;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    margin: 20px auto 0px;
+}
+
+/* ==========================================cards=========================================================================== */
+
+#firstColumDiv,
+#secondColumn,
+#ThirdColumn {
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    padding: 40px 32px 32px;
+    max-width: 373px;
+    width: 100%;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+#secondColumn,
+#ThirdColumn {
+    margin-left: 32px;
+}
+
+#EnterpriseButton {
+    color: #6941C6;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 125px;
+    width: 100%;
+    display: block;
+}
+
+#BusinessButton {
+    color: #6941C6;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 117px;
+    width: 100%;
+    display: block;
+}
+
+#BasicButton {
+    color: #6941C6;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 95px;
+    width: 100%;
+    display: block;
+}
+
+#firstColumnPrice,
+#SecondColumnPrice,
+#ThirdColumnPrice {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin-top: 16px;
+}
+
+#popularPlan,
+#GrowingTeams,
+#AdvancedTeams {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 8px 0px 16px;
+}
+
+#FirstColumnStarted,
+#SecondColumnStarted,
+#ThirdColumnStarted {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    display: block;
+    margin: auto;
+    padding: 12px 18px;
+    max-width: 309px;
+    width: 100%;
+}
+
+#FirstColumnSales,
+#SecondColumnSales,
+#ThirdColumnSales {
+    padding: 12px 18px;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    max-width: 309px;
+    width: 100%;
+    margin: 12px auto 32px;
+
+
+}
+
+#checkDivOne,
+#checkDivTwo,
+#checkDivThree {
+    border-top: 1px solid #E9EAEB;
+    width: 310px;
+}
+
+#checkImgOne,
+#SecondCheckImgOne,
+#ThirdCheckImgOne {
+    vertical-align: middle;
+    border-radius: 9999px;
+    width: 24px;
+    height: 24px;
+    margin-top: 33px;
+    display: inline-block;
+}
+
+#checkSpanOne,
+#checkSpanIntegrations,
+#checkSpanFields {
+    vertical-align: middle;
+    margin: 33px 0px 0px 12px;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+}
+
+#CheckImgTwo,
+#CheckImgThree,
+#CheckImgFour,
+#CheckImgfive,
+#SecondCheckImgTwo,
+#SecondCheckImgThree,
+#SecondCheckImgFour,
+#SecondCheckImgfive,
+#ThirdCheckImgTwo,
+#ThirdCheckImgThree,
+#ThirdCheckImgFour,
+#ThirdCheckImgfive {
+    vertical-align: middle;
+    border-radius: 9999px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+#checkSpanTwo,
+#checkSpanThree,
+#checkSpanFour,
+#checkSpanFive,
+#checkSpanAdvanced,
+#checkSpanUp,
+#checkSpanIndividual,
+#checkSpanPriority,
+#checkSpanIndividualUsers,
+#checkSpanHistory,
+#checkSpanIndividualData,
+#checkSpanPriorityService {
+    vertical-align: middle;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 16px;
+}
+
+/* ----------------------------------main second section------------------------------- */
+
+#mainSecondSectionContainer {
+    max-width: 1440px;
+    width: 100%;
+    padding: 32px 0px;
+    border-radius: 24px;
+    background: #FFF;
+    margin-top: 64px;
+}
+
+#maincSecondSectionTitle {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#titleOfParagraphs {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+#descriptionOfParagraphs {
+    margin: 20px 0px 32px;
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+#SecondSectionFirstDiv {
+    width: 768px;
+    padding: 32px;
+    border-radius: 16px;
+    background: #E4E4E4;
+    margin: auto;
+}
+
+#firstArrowImg,
+#SecondArrowImg,
+#ThirdArrowImg,
+#FourthArrowImg,
+#FifthArrowImg,
+#SixthArrowImg {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+h4 {
+    display: inline-block;
+    vertical-align: middle;
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 24px;
+}
+
+#SecondSectionSecondDiv {
+    width: 768px;
+    padding: 32px;
+    margin: 16px auto 0px;
+    border-radius: 16px;
+    border: 2px solid #FF2323;
+    background: #FFE5E5;
+}
+
+#SecondSectionSecondParagraph,
+#SecondSectionThirdParagraph,
+#SecondSectionFirstParagraph,
+#SecondSectionFourthParagraph,
+#SecondSectionFifthParagraph,
+#SecondSectionSixthParagraph {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 53px;
+    margin-top: 8px;
+}
+
+#SecondSectionThirdDiv {
+    width: 768px;
+    padding: 32px;
+    margin: 16px auto 0px;
+    border-radius: 16px;
+    background: #E9D7FF;
+}
+
+#SecondSectionFourthDiv {
+    width: 768px;
+    padding: 32px;
+    margin: 16px auto 0px;
+    border-radius: 16px;
+    background: #F7F4FF;
+}
+
+#SecondSectionFifthDiv {
+    width: 768px;
+    padding: 32px;
+    margin: 16px auto 0px;
+    border-radius: 16px;
+    border: 4px solid #326DFF;
+    background: #DCE6FF;
+}
+
+#SecondSectionSixthDiv {
+    width: 768px;
+    padding: 32px;
+    margin: 16px auto 0px;
+    border-radius: 16px;
+    background: #FFD5E7;
+}
+
+/* --------------------------avatar Profile ---------------------------------------------------------------- */
+
+#avatarSectionContainer {
+    border-radius: 24px;
+    background: #FFF;
+    padding: 32px 0px;
+    max-width: 1148px;
+    max-width: 100%;
+    margin: 64px 0px 0px;
+    padding: 32px;
+}
+
+#avatarHeaderDescription {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+}
+
+#avatarHeader {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+}
+
+#avatarParagraph {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+#SiennaHewittProfile,
+#CaitlynProfile {
+    max-width: 580px;
+    width: 100%;
+    padding: 32px;
+    margin-top: 64px;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+#OllyProfile,
+#RileyProfile {
+    max-width: 580px;
+    width: 100%;
+    height: 256px;
+    padding: 32px;
+    margin-top: 24px;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+#SiennasPost,
+#OllyPost,
+#CaitlynsPost,
+#RileyPost {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+#fullInformationOfSienna,
+#fullInformationOfRiley {
+    margin-top: 80px;
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+}
+
+#fullInformationOfOlly,
+#fullInformationOfCaitlyn {
+    margin-top: 52px;
+    display: inline-block;
+    max-width: 370px;
+    width: 100%;
+}
+
+#SiennaPhoto,
+#OllyPhoto,
+#CaitlynPhoto,
+#RileyPhoto {
+    max-width: 48px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#divOfImgAndVerfied,
+#divOfImgAndVerfiedSecond,
+#divOfImgAndVerfiedThird,
+#divOfImgAndVerfiedFourth {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+#SiennasNameSpan,
+#OllysNameSpan,
+#CaitlynsNameSpan,
+#RileysNameSpan {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    vertical-align: middle;
+}
+
+#VerifiedOne,
+#VerifiedTwo,
+#VerifiedThree,
+#VerifiedFour {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+#Professional,
+#ProfessionalofOlly,
+#ProfessionalofCaitlyn,
+#ProfessionalofRiley {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#LogoOfCompani,
+#LogoOfCompaniOfOlly,
+#LogoOfCompaniofCaitlyn,
+#LogoOfCompaniOfRiley {
+    display: inline-block;
+    max-width: 126px;
+    width: 100%;
+    margin-left: 12px;
+}
+
+#OllyAndSiennaDiv {
+    display: inline-block;
+}
+
+#CaitlynAndRileyDiv {
+    display: inline-block;
+    margin-left: 24px;
+}
